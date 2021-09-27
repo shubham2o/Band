@@ -1,0 +1,73 @@
+ body {
+     box-sizing: border-box;
+     font-family: montserrat, sans-serif;
+ }
+
+
+ :root {
+     --lightgrey:#D5D5D5;
+     --darkgrey:#777777;
+     --black:#000000;
+     --white:#FFFFFF;
+     --blackgrey:#29292C;
+ }
+
+
+                             /*---------------------------------
+                             --------------- NAVBAR ------------
+                             ---------------------------------*/
+
+ .navbar {
+     font-family: Montserrat, sans-serif;
+     margin-bottom: 0;
+     background-color: #2d2d30;
+     border: 0;
+     font-size: 11px !important;
+     letter-spacing: 4px;
+     opacity: 0.9;
+  }
+
+
+  .navbar li a, .navbar .navbar-brand { 
+     color: var(--lightgrey) !important;
+  }
+
+
+  .navbar-nav li a:hover {
+     color: var(--white) !important;
+     font-weight: bolder;
+     letter-spacing: 7px;
+  }
+
+
+  .navbar-nav li.active a {
+     color: red !important;
+     background-color: #29292c !important;
+     font-weight: bolder;
+  }
+
+
+  .navbar-default .navbar-toggle {
+     border-color: transparent;
+  }
+
+
+  .open .dropdown-toggle {
+     color: var(--white);
+     background-color: #555 !important;
+     font-weight: bolder;
+     letter-spacing: 7px;
+  }
+
+
+  .dropdown-menu li a {
+     color: var(--black) !important;
+     letter-spacing: 4px !important;
+  }
+
+
+  .dropdown-menu li a:hover {
+     background-color: red !important;
+     color: var(--black) !important;
+     font-weight: bolder !important;
+  }
