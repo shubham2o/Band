@@ -73,3 +73,11 @@
      color: var(--black) !important;
      font-weight: bolder !important;
   }
+
+
+  /*  */
+
+  .carousel-inner img {
+    width: 100%;
+    margin: auto;
+  }
