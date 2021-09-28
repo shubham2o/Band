@@ -1,10 +1,10 @@
- body {
+  body {
        box-sizing: border-box;
        font-family: montserrat, sans-serif;
  }
 
 
- :root {
+  :root {
        --white:#FFFFFF;
        --red:#ff0000;
        --black:#000000;
@@ -19,7 +19,7 @@
                       --------------- NAVBAR ------------
                       ---------------------------------*/
 
- .navbar {
+  .navbar {
        font-family: Montserrat, sans-serif;
        margin-bottom: 0;
        background-color: var(--lightblackgrey);
@@ -78,29 +78,57 @@
                       /*----------------------------------
                       ------------- .carousel ------------
                       ----------------------------------*/
-                     
- .carousel-inner img {
+
+ .carousel-indicators li {
+       background-color: transparent;
+ }
+
+
+ .carousel-indicators li.active {
+       background-color: var(--red);
+ }
+
+
+  .carousel-inner img {
        width: 100%;
        margin: auto;
   }
 
 
+  .carousel-caption h3 {
+       margin-bottom: 35px;
+       letter-spacing: 7px;
+       text-align: center !important;
+       font-weight: bolder !important;
+       text-shadow: 3px 3px var(--red);
+  }
+
+
+  .carousel-caption p {
+       margin-bottom: 35px;
+       font-size: 15px;
+       font-weight: bold;
+  }
+
+
   .carousel-control span {
-       color: var(--red);
-       font-size: 30px;
+       color: var(--darkgrey);
+       font-size: 35px;
   }
 
 
   @media screen and (max-width:768px) {
        .carousel-inner .item .carousel-caption {
           display: none;
+          text-align: center !important;
+          font-weight: bolder !important;
        }
   }
 
 
   @media screen and (min-width:769px) {
        .carousel-control span {
-          color: var(--red);
-          font-size: 50px !important;
-    }
+          color: var(--darkgrey);
+          font-size: 55px !important;
+       }
  }
