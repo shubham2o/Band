@@ -220,4 +220,94 @@
 
  .tourdates {
       background-color: var(--lightblackgrey);
+      font-family: Lato, sans-serif;
+ }
+
+
+ .tourdates .container {
+      padding: 0px 100px;
+ }
+
+
+ .tourdates .container h3 {
+      color: var(--white);
+      font-size: 24px;
+      letter-spacing: 8px;
+      margin-top: 95px;
+      margin-bottom: 34px;
+ }
+
+
+ .tourdates .container p {
+      color: var(--lightgrey);
+      font-size: 15px;
+      padding-bottom: 40px;
+ }
+
+
+ .list-group-item {
+      text-align: left;
+      color: var(--darkgrey);
+      font-size: 15px;
+      font-weight: bold;
+ }
+
+
+ .badge {
+      color: var(--white);
+      background-color: var(--darkgrey);
+      border: 2px solid var(--red);
+      font-size: 13px;
+ }
+
+
+ .tourdates .row {
+      margin-bottom: 80px;
+ }
+
+
+ .tourdates .row .col .card {
+      background-color: var(--white);
+      margin-bottom: 25px;
+ }
+
+
+ .row .col .card p {
+      color: var(--darkgrey);
+      font-weight: bolder;
+      font-size: 17px;
+      padding: 0px;
+      margin-top: 15px;
+ }
+
+
+ .row .col .card button {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      background-color: var(--blackgrey);
+      padding: 10px 14px;
+      font-size: 15px;
+ }
+
+
+ .row .col .card button:hover {
+      border: 2px solid var(--blackgrey);
+      background-color: var(--white);
+      color: var(--black);
+ }
+
+
+  @media screen and (max-width:768px) {
+      .tourdates .row img {
+           width: 100%;
+           height: 100%;
+      }
+ }
+
+
+ @media screen and (min-width:769px) {
+      .tourdates .row img {
+           width: 100%;
+           height: 100%;
+      }
  }
