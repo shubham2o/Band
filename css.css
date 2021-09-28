@@ -285,21 +285,14 @@
       margin-top: 10px;
       margin-bottom: 25px;
       background-color: var(--blackgrey);
-<<<<<<< HEAD
       color: var(--white);
-=======
->>>>>>> b9e87e007c2597bb94d165ffb9c8381219931596
       padding: 10px 14px;
       font-size: 15px;
  }
 
 
  .row .col .card button:hover {
-<<<<<<< HEAD
       border: 1px solid var(--blackgrey);
-=======
-      border: 2px solid var(--blackgrey);
->>>>>>> b9e87e007c2597bb94d165ffb9c8381219931596
       background-color: var(--white);
       color: var(--black);
  }
