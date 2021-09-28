@@ -216,7 +216,8 @@
                       /*------------- .tourdates ---------------
                       ---- .list-group - .list-group-items -----
                       ----------------- .label -----------------
-                      ---- paris - new york - san franciso ---*/
+                      ---- paris - new york - san franciso -----
+                      - --------------- MODAL ----------------*/
 
  .tourdates {
       background-color: var(--lightblackgrey);
@@ -312,3 +313,7 @@
            height: 100%;
       }
  }
+                      /*-----------------------------------------
+                      ------------------- MODAL -----------------
+                      -----------------------------------------*/
+ 
