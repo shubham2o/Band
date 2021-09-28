@@ -316,4 +316,96 @@
                       /*-----------------------------------------
                       ------------------- MODAL -----------------
                       -----------------------------------------*/
- 
+ .modal-content {
+      margin: 68px;
+ }
+
+
+ @media screen and (max-width:768px) {
+      .modal-content {
+           margin: auto;
+      }
+ }
+
+
+ .modal-header {
+      background-color: var(--lightblackgrey);
+      color: var(--white);
+      text-align: center;
+      letter-spacing: 10px;
+      margin: -2px;
+      padding: 25px 40px 60px;
+ }
+
+
+ .modal-header h2  span {
+      font-family: Lato, sans-serif;
+ }
+
+
+ .modal-body {
+      padding: 40px;
+ }
+
+
+ .form-group .help-block {
+      color: #BDBDBD;
+      font-weight: bolder;
+      font-size: 15px;
+ }
+
+
+ .form-group .form-control {
+      color: var(--black);
+      font-weight: 600;
+ }
+
+
+ .modal-body .btn-block {
+      background-color: var(--lightblackgrey);
+      color: var(--white);
+      margin-top: 20px !important;
+      padding: 8px 0px;
+      font-size: 16px;
+      font-weight: 800 !important;
+ }
+
+
+ .modal-body .btn-block:hover {
+      background-color: var(--white);
+      border: 1px solid var(--white);
+      box-shadow: 3px 3px 8px green;
+      color: var(--black);
+      font-family: Lato, sans-serif;
+ }
+
+
+ .modal-footer {
+      padding: 21px;
+      border-top: 2px solid var(--lightgrey);
+ }
+
+
+ .modal-footer .btn {
+      font-size: 16px;
+      border: 1px solid var(--lightgrey) ;
+      padding: 6px;
+      margin: -6px 0px 0px 5px;
+      letter-spacing: 2px;
+      color: var(--darkgrey);
+      background-color: var(--lightgrey);
+ }
+
+
+ .modal-footer .btn:hover {
+      background-color: var(--red);
+      border: 1px solid var(--black);
+      color: var(--white);
+ }
+
+
+ .modal-footer p {
+      margin-right: 1px;
+      font-size: 16px;
+      word-spacing: 3px;
+ }
