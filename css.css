@@ -1,6 +1,6 @@
   body {
        box-sizing: border-box;
-       font-family: montserrat, sans-serif;
+       text-align: center;
  }
 
 
@@ -79,6 +79,11 @@
                       ------------- .carousel ------------
                       ----------------------------------*/
 
+ .carousel {
+      font-family: montserrat , sans-serif;
+ }
+
+
  .carousel-indicators li {
        background-color: transparent;
  }
@@ -107,7 +112,6 @@
   .carousel-caption p {
        margin-bottom: 35px;
        font-size: 15px;
-       font-weight: bold;
   }
 
 
@@ -119,16 +123,83 @@
 
   @media screen and (max-width:768px) {
        .carousel-inner .item .carousel-caption {
-          display: none;
-          text-align: center !important;
-          font-weight: bolder !important;
-       }
+            display: none;
+            text-align: center !important;
+            font-weight: bolder !important;
+      }
   }
 
 
   @media screen and (min-width:769px) {
        .carousel-control span {
-          color: var(--darkgrey);
-          font-size: 55px !important;
-       }
+            color: var(--darkgrey);
+            font-size: 55px !important;
+      }
  }
+
+
+                      /*-------------- THE BAND --------------
+                      ------------- we love music! -----------
+                      ------------ BANDMEMBER IMAGE --------*/
+
+  .theband {
+       margin: 0px 170px;
+       padding: 100px;
+  }
+
+
+  @media screen and (max-width:768px) {
+       .theband {
+            margin: auto;
+       }
+  }
+
+
+  .theband h1 {
+       font: 20px Lato, sans-serif ;
+       letter-spacing: 10px;
+       margin-top: -10px;
+       margin-bottom: 35px;
+       color: var(--black);
+  }
+
+
+  .theband p {
+       font: 16px Lato, sans-serif ;
+       line-height: 25px;
+  }
+
+
+  .theband .row {
+       margin-top: 40px;
+  }
+
+
+  .theband .row .col {
+       opacity: 0.4;
+ }
+
+
+  .theband .row .col:hover {
+       opacity: 1;
+ }
+
+
+  .theband .row .col:hover p {
+       color: var(--red);
+       font-weight: bolder !important;
+       letter-spacing: 3px;
+       font-size: 22px;
+       text-shadow: 1px 1px var(--black);
+}
+
+
+  .theband .row p {
+       font-weight: bolder;
+       padding: 0px;
+  }
+
+
+  .theband .row img {
+       margin: 30px 0px;
+  }
