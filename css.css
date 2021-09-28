@@ -1,6 +1,5 @@
   body {
        box-sizing: border-box;
-       text-align: center;
  }
 
 
@@ -145,6 +144,7 @@
   .theband {
        margin: 0px 170px;
        padding: 100px;
+       text-align: center;
   }
 
 
