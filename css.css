@@ -1,17 +1,17 @@
  body {
-     box-sizing: border-box;
-     font-family: montserrat, sans-serif;
+       box-sizing: border-box;
+       font-family: montserrat, sans-serif;
  }
 
 
  :root {
-     --white:#FFFFFF;
-     --red:#ff0000;
-     --black:#000000;
-     --lightgrey:#D5D5D5;
-     --darkgrey:#555 ;
-     --blackgrey:#29292C;
-     --lightblackgrey:#2d2d30;
+       --white:#FFFFFF;
+       --red:#ff0000;
+       --black:#000000;
+       --lightgrey:#D5D5D5;
+       --darkgrey:#555 ;
+       --blackgrey:#29292C;
+       --lightblackgrey:#2d2d30;
  }
 
 
@@ -20,58 +20,58 @@
                       ---------------------------------*/
 
  .navbar {
-     font-family: Montserrat, sans-serif;
-     margin-bottom: 0;
-     background-color: var(--lightblackgrey);
-     border: 0;
-     font-size: 11px !important;
-     letter-spacing: 4px;
-     opacity: 0.9;
+       font-family: Montserrat, sans-serif;
+       margin-bottom: 0;
+       background-color: var(--lightblackgrey);
+       border: 0;
+       font-size: 11px !important;
+       letter-spacing: 4px;
+       opacity: 0.9;
   }
 
 
   .navbar li a, .navbar .navbar-brand { 
-     color: var(--lightgrey) !important;
+       color: var(--lightgrey) !important;
   }
 
 
   .navbar-nav li a:hover {
-     color: var(--white) !important;
-     font-weight: bolder;
-     letter-spacing: 7px;
+       color: var(--white) !important;
+       font-weight: bolder;
+       letter-spacing: 7px;
   }
 
 
   .navbar-nav li.active a {
-     color:var(--red) !important;
-     background-color:var(--blackgrey) !important;
-     font-weight: bolder;
+       color:var(--red) !important;
+       background-color:var(--blackgrey) !important;
+       font-weight: bolder;
   }
 
 
   .navbar-default .navbar-toggle {
-     border-color: transparent;
+       border-color: transparent;
   }
 
 
   .open .dropdown-toggle {
-     color: var(--white);
-     background-color: var(--darkgrey) !important;
-     font-weight: bolder;
-     letter-spacing: 7px;
+       color: var(--white);
+       background-color: var(--darkgrey) !important;
+       font-weight: bolder;
+       letter-spacing: 7px;
   }
 
 
   .dropdown-menu li a {
-     color: var(--black) !important;
-     letter-spacing: 4px !important;
+       color: var(--black) !important;
+       letter-spacing: 4px !important;
   }
 
 
   .dropdown-menu li a:hover {
-     background-color:var(--red) !important;
-     color: var(--black) !important;
-     font-weight: bolder !important;
+       background-color:var(--red) !important;
+       color: var(--black) !important;
+       font-weight: bolder !important;
   }
 
 
@@ -79,14 +79,28 @@
                       ------------- .carousel ------------
                       ----------------------------------*/
                      
-.carousel-inner img {
-    width: 100%;
-    margin: auto;
+ .carousel-inner img {
+       width: 100%;
+       margin: auto;
+  }
+
+
+  .carousel-control span {
+       color: var(--red);
+       font-size: 30px;
   }
 
 
   @media screen and (max-width:768px) {
-     .carousel-inner .item .carousel-caption {
-        display: none;
-     }
+       .carousel-inner .item .carousel-caption {
+          display: none;
+       }
   }
+
+
+  @media screen and (min-width:769px) {
+       .carousel-control span {
+          color: var(--red);
+          font-size: 50px !important;
+    }
+ }
