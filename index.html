@@ -201,7 +201,7 @@
                              <img src="images/paris.jpg" alt="PARIS-IMAGE" width="400" height="300">
                              <p style="letter-spacing: 2px; font-size: 21px; text-decoration: underline;"><em><strong>Paris</strong></em></p>
                              <p><em>Friday 27 November 2015</em></p>
-                             <button type="button" class="btn">Buy Tickets</button>
+                             <button type="button" class="btn" data-toggle="modal" data-target="#mymodal">Buy Tickets</button>
                          </div>
                      </div>
                      <div class="col-sm-4 col">
@@ -209,7 +209,7 @@
                              <img src="images/newyork.jpg" alt="NEW YORK-IMAGE" width="400" height="300">
                              <p style="letter-spacing: 2px; font-size: 21px; text-decoration: underline;"><em><strong>New York</strong></em></p>
                              <p><em>Saturday 28 November 2015</em></p>
-                             <button type="button" class="btn">Buy Tickets</button>
+                             <button type="button" class="btn" data-toggle="modal" data-target="#mymodal">Buy Tickets</button>
                          </div>
                      </div>
                      <div class="col-sm-4 col">
@@ -217,7 +217,48 @@
                              <img src="images/sanfran.jpg" alt="SAN FRANCISO-IMAGE" width="400" height="300">
                              <p style="letter-spacing: 2px; font-size: 21px; text-decoration: underline;"><em><strong>San Franciso</strong></em></p>
                              <p><em>Sunday 29 November 2015</em></p>
-                             <button type="button" class="btn">Buy Tickets</button>
+                             <button type="button" class="btn" data-toggle="modal" data-target="#mymodal">Buy Tickets</button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <!-----------------------------------------
+             ------------------- MODAL -----------------
+             ------------------------------------------>
+             <div class="modal fade" id="mymodal" role="dialog">
+                 <div class="modal-dialog">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal">x</button>
+                             <h4 class="glyphicon glyphicon-lock"></h4>
+                         </div>
+                         <div class="modal-body">
+                             <form action="" role="form">
+                                 <div class="form-group">
+                                     <label for="psw">
+                                         <span class="glyphicon glyphicon-shopping-cart"></span>
+                                         Tickets, $23 per person
+                                     </label>
+                                     <input type="number" id="psw" class="form-control" name="psw" placeholder="How many?" required>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="email">
+                                         <span class="glyphicon glyphicon-user"></span>
+                                         Send To
+                                     </label>
+                                     <input type="email" name="email" id="email"  class="form-control" placeholder="Enter email" required>
+                                 </div>
+                                 <button type="submit" class="btn btn-block">Pay
+                                     <span class="glyphicon glyphicon-ok"></span>
+                                 </button>
+                             </form>
+                         </div>
+                         <div class="modal-footer">
+                             <button type="button" class="btn btn-danger btn-default pull-left" data-dismiss="modal"> 
+                                 <span class="glyphicon glyphicon-remove"></span>
+                                 Cancel
+                             </button>
+                             <p><em>Need <a href="#">help?</a></em></p>
                          </div>
                      </div>
                  </div>
