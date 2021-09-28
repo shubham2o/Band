@@ -381,7 +381,7 @@
 
 
  .modal-footer {
-      padding: 21px;
+      padding: 11px 11px 14px;
       border-top: 2px solid var(--lightgrey);
  }
 
@@ -389,8 +389,6 @@
  .modal-footer .btn {
       font-size: 16px;
       border: 1px solid var(--lightgrey) ;
-      padding: 6px;
-      margin: -6px 0px 0px 5px;
       letter-spacing: 2px;
       color: var(--darkgrey);
       background-color: var(--lightgrey);
@@ -405,7 +403,7 @@
 
 
  .modal-footer p {
-      margin-right: 1px;
+      margin: 5px 5px 0px 0px;
       font-size: 16px;
       word-spacing: 3px;
  }
