@@ -532,3 +532,40 @@
       margin-top: -7px !important;
       font: 17px Lato, sans-serif;
  }
+
+
+                     /*-------------------------------------
+                     ----------------- FOOTER --------------
+                     -------------------------------------*/
+                    
+footer {
+      background-color: var(--lightblackgrey);
+      color: var(--white);
+      font-family: Montserrat, sans-serif;
+      padding-bottom: 65px;
+ }
+
+
+ footer span {
+      margin: 30px;
+      font-size: 35px;
+      color: var(--red);
+ }
+
+
+ footer h4 a {
+      text-decoration: none;
+ }
+
+
+ footer h4 a:hover {
+      text-decoration: none;
+      color: var(--red);
+ }
+
+
+ footer h4 a:hover strong {
+      font-size: 24px !important;
+      text-shadow: 1px 1px var(--red);
+      
+ }
