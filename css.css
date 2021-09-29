@@ -257,7 +257,7 @@
  .badge {
       color: var(--white);
       background-color: var(--darkgrey);
-      border: 2px solid var(--red);
+      border: 1px solid var(--red);
       font-size: 13px;
  }
 
