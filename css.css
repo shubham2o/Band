@@ -418,3 +418,57 @@
       font-size: 16px;
       word-spacing: 3px;
  }
+
+
+ /*  */
+
+ .contact {
+      margin: 0px 175px;
+ }
+
+
+ @media screen and (max-width:768px) {
+      .contact {
+           margin: auto;
+      }
+ }
+
+
+ .contact h2 {
+      margin: 100px auto 30px;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 8px;
+      font-weight: bold;
+ }
+
+
+ .row1 {
+      margin: 30px 64px;
+ }
+
+
+ .row1 .information {
+      margin-top: 0px;
+ }
+
+
+ .row1 .information h4 {
+      font: 16px Lato, sana-serif;
+      margin-bottom: 15px;
+ }
+
+
+ @media screen and (max-width:768px) {
+      .row1 .information {
+           text-align: justify;
+      }
+      .row1 .row2 .email {
+           margin: 15px 0px;
+      }
+ }
+
+
+ .row1 .row3 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+ }
