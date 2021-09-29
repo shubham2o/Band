@@ -215,14 +215,33 @@
    @media screen and (max-width:768px) {
        .theband {
             margin: auto;
+            padding: auto;
+       }
+       .theband .one {
+            text-align: justify !important;
+            margin: auto -55px;
+       }
+       .theband .two {
+            padding-top: 25px !important;
+       }
+       .theband .row .col {
+           margin: auto -15px;
        }
        .theband .row img {
-            width: 100%;
-            height: 100%;
+            width: 85%;
+            height: 85%;
+       }
+       .theband .row .col:hover #demo p,
+       .theband .row .col:hover #demo1 p,
+       .theband .row .col:hover #demo2 p {
+            letter-spacing: 1px !important;
+            line-height: normal !important;
+            font-size: 18px !important;
        }
        .theband .row .col:hover p {
             letter-spacing: 3px !important;
             font-size: 18px !important;
+            line-height: normal !important;
        }
   }
 
@@ -324,6 +343,18 @@
 
 
   @media screen and (max-width:768px) {
+      .three {
+           margin: auto -60px;
+      }
+      .list-group {
+           margin: 5px -60px 40px;
+      }
+      .row {
+           margin: auto -70px;
+      }
+      .row .col {
+           margin-bottom: 40px;
+      }
       .tourdates .row img {
            width: 100%;
            height: 100%;
@@ -447,6 +478,10 @@
  @media screen and (max-width:768px) {
       .contact {
            margin: auto;
+      }
+      .row1 .information {
+           margin: auto -20px !important;
+           text-align: left !important;
       }
  }
 
