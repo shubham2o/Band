@@ -470,7 +470,7 @@
 
  .row1 .row3 {
       margin-top: 20px;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
  }
 
 
@@ -489,4 +489,41 @@
       background-color: var(--white);
       color: var(--black);
       border: 1px solid var(--black);
+ }
+ /*  */
+ .nav-tabs {
+      margin: 45px 70px;
+      text-align: center !important;
+ }
+
+
+ .nav-tabs li {
+      margin: 0px 5px;
+      font-weight: bold !important;
+      font: 18px Montserrat, sans-serif;
+ }
+
+
+ .nav-tabs li a {
+      border: 2px solid var(--red);
+      color: var(--black);
+ }
+
+
+ .tab-content {
+      margin-top: -60px !important;
+      text-align: center;
+ }
+
+
+ .tab-content h2 {
+      font-size: 22px !important;
+      letter-spacing: normal !important;
+      text-decoration: underline;
+ }
+
+
+ .tab-content p {
+      margin-top: -7px !important;
+      font: 17px Lato, sans-serif;
  }
