@@ -515,6 +515,13 @@
  }
 
 
+  @media screen and (max-width:768px) {
+      .nav-tabs li a {
+           margin-bottom: 7px;
+      }
+ }
+
+
  .tab-content {
       margin-top: -60px !important;
       text-align: center;
@@ -558,13 +565,15 @@ footer {
  }
 
 
- footer h4 a:hover {
+ footer h4 a:hover,
+ footer h4 a:active {
       text-decoration: none;
       color: var(--red);
  }
 
 
- footer h4 a:hover strong {
+ footer h4 a:hover strong,
+ footer h4 a:active strong  {
       font-size: 24px !important;
       text-shadow: 1px 1px var(--red);
       
