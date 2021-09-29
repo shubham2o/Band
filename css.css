@@ -472,3 +472,21 @@
       margin-top: 20px;
       margin-bottom: 30px;
  }
+
+
+ .row1 .row4 button,
+ .row1 .row4 button:link,
+ .row1 .row4 button:visited {
+      font: 15px Lato, sans-serif;
+      background-color: var(--blackgrey);
+      color: var(--white);
+      padding: 8px 14px;
+ }
+
+
+ .row1 .row4 button:hover,
+ .row1 .row4 button:active {
+      background-color: var(--white);
+      color: var(--black);
+      border: 1px solid var(--black);
+ }

@@ -306,13 +306,13 @@
                          <div class="col-sm-6">
                              <form action="" autocomplete="on">
                                  <label for="name" class="sr-only">NAME</label>
-                                 <input type="text" name="Name" id="name" placeholder="Name" class="form-control" required>
+                                 <input type="text" name="Name" id="name" placeholder="Name" class="form-control" required autocomplete="on">
                              </form>
                          </div>
                          <div class="col-sm-6">
                              <form action="" autocomplete="on" class="email">
                                  <label for="email" class="sr-only">EMAIL</label>
-                                 <input type="email" name="Name" id="email" placeholder="Email" class="form-control" required>
+                                 <input type="email" name="email" id="email" placeholder="Email" class="form-control" required autocomplete="on">
                              </form>
                          </div>
                      </div>
@@ -320,6 +320,11 @@
                          <div class="col-sm-12">
                              <label for="textarea" class="sr-only">TEXTAREA</label>
                              <textarea name="comment" id="textarea" rows="5" placeholder="Comment" class="form-control" style="resize: none;"></textarea>
+                         </div>
+                     </div>
+                     <div class="row row4">
+                         <div class="col-sm-12">
+                             <button type="submit" class="btn pull-right" name="Send" value="Send" role="clear">Send</button>
                          </div>
                      </div>
                  </div>
