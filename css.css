@@ -282,13 +282,16 @@
  }
 
 
- .row .col .card button {
+ .row .col .card button,
+ .row .col .card button:link,
+ .row .col .card button:visited {
       margin-top: 10px;
       margin-bottom: 25px;
       background-color: var(--blackgrey);
       color: var(--white);
       padding: 10px 14px;
       font-size: 15px;
+      border: none;
  }
 
 
@@ -296,6 +299,13 @@
       border: 1px solid var(--blackgrey);
       background-color: var(--white);
       color: var(--black);
+ }
+
+
+ .row .col .card button:active {
+      background-color: green;
+      color: var(--white);
+      border: 1-x solid var(--black);
  }
 
 
@@ -318,6 +328,7 @@
                       -----------------------------------------*/
  .modal-content {
       margin: 68px;
+      box-shadow: 0px 0px 7px var(--white);
  }
 
 
@@ -333,7 +344,7 @@
       color: var(--white);
       text-align: center;
       letter-spacing: 10px;
-      margin: -2px;
+      margin: 0px;
       padding: 25px 40px 60px;
  }
 
