@@ -28,8 +28,8 @@
                                      --------- JavaScript ------------>
         
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
         
         
                                      <!------- External ---------------
@@ -61,22 +61,40 @@
                  </div>
                  <div class="collapse navbar-collapse" id="mynavbar">
                      <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#home">HOME</a></li>
-                         <li><a href="#band">BAND</a></li>
-                         <li><a href="#tour">TOUR</a></li>
-                         <li><a href="#contact">CONTACT</a></li>
+                         <li>
+                             <a href="#home">HOME</a>
+                         </li>
+                         <li>
+                             <a href="#band">BAND</a>
+                         </li>
+                         <li>
+                             <a href="#tour">TOUR</a>
+                         </li>
+                         <li>
+                             <a href="#contact">CONTACT</a>
+                         </li>
                          <li class="dropdown">
                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                  MORE
                                  <span class="caret" style="color: red;"></span>
                              </a>
                              <ul class="dropdown-menu">
-                                 <li><a href="#">Merchandise</a></li>
-                                 <li><a href="#">Extras</a></li>
-                                 <li><a href="#">Media</a></li>
+                                 <li>
+                                     <a href="#">Merchandise</a>
+                                 </li>
+                                 <li>
+                                     <a href="#">Extras</a>
+                                 </li>
+                                 <li>
+                                     <a href="#">Media</a>
+                                 </li>
                              </ul>
                          </li>
-                         <li><a href=""><span class="glyphicon glyphicon-search"></span></a></li>
+                         <li>
+                             <a href="">
+                                 <span class="glyphicon glyphicon-search"></span>
+                             </a>
+                         </li>
                      </ul>
                  </div>
              </div>
@@ -87,13 +105,13 @@
                                      ------------- .carousel ------------
                                      ----------------------------------->
 
-         <div id="mycarousel home" class="carousel slide" data-ride="carousel">
+         <div id="mycarousel" class="carousel slide" data-ride="carousel">
              <ol class="carousel-indicators">
                  <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
                  <li data-target="#mycarousel" data-slide-to="1"></li>
                  <li data-target="#mycarousel" data-slide-to="2"></li>
              </ol>
-             <div class="carousel-inner">
+             <div class="carousel-inner" id="home">
                  <div class="item active">
                      <img src="images/ny.jpg" alt="NEW YORK-IMAGE" width="1200" height="700">
                      <div class="carousel-caption">
