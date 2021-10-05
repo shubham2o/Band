@@ -1,2 +1,1 @@
-# Band
-via W3schools
+https://shubham2o.github.io/Band/
